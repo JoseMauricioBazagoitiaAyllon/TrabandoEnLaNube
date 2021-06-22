@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mis articulos1</string>
+    <string name="facebook_application_id" translatable="false">939682346831807</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb939682346831807</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">hmQEvHx3BPRP1zWur3ca0Cq5O</string>
+    <string name="twitter_consumer_secret" translatable="false">QeHX1ZQiAvGEIJBxhxLidzLgjsVGwG2yTiGh4ZUc0QVsqI2pCc</string>
+    <string name="title_activity_base_de_datos">BaseDeDatosActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
