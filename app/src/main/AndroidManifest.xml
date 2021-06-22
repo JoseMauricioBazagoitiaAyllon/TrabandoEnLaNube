@@ -11,7 +11,7 @@
         <activity
             android:name=".BaseDeDatosActivity"
             android:label="@string/title_activity_base_de_datos"
-            android:theme="@style/Theme.MisArticulos1.NoActionBar"></activity>
+            android:theme="@style/Theme.MisArticulos1.NoActionBar" />
         <activity android:name=".UsuarioActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

@@ -42,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+
+        Button LlamarBD = (Button) findViewById(R.id.LlamarBD);
+        LlamarBD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lanzarLecturaDeDatos();
+            }
+        });
+
+
+
         Button datosUsuario = (Button) findViewById(R.id.btn_datos_usuario);
         datosUsuario.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,5 +111,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this , UsuarioActivity.class);
         startActivity(i);
     }
-
+    public void lanzarLecturaDeDatos(){
+        Intent i = new Intent(this , BaseDeDatosActivity.class);
+        startActivity(i);
+    }
 }
